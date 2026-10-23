@@ -42,11 +42,7 @@ npm run dev
 - `npm run build` creates a production build.
 - `npm run preview` previews the production build locally.
 
-## API Configuration
 
-Set `VITE_API_BASE_URL` in your `.env` file. Refer to `.env.example` for the expected configuration.
-
-The application is API-ready, with Axios interceptors and shared service helpers organized under `src/services` and `src/api`.
 
 ## Demo Authentication
 
