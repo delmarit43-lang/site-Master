@@ -1,8 +1,8 @@
-# E-Dhis
+# SiteMaster
 
-Premium Construction Company Management System frontend for Somaliland and East Africa.
+Premium Construction Company Management System designed for Somaliland and East Africa.
 
-## Stack
+## Tech Stack
 
 - React 19 + Vite + TypeScript
 - Tailwind CSS v4
@@ -14,23 +14,52 @@ Premium Construction Company Management System frontend for Somaliland and East 
 - Lucide React
 - Recharts
 
-## Getting started
+## Getting Started
+
+### Prerequisites
+
+Make sure Node.js and npm are installed on your computer.
+
+### Installation
+
+Clone the repository and install the dependencies:
 
 ```bash
+git clone https://github.com/delmarit43-lang/site-Master.git
+cd site-Master
 npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
 ```
 
-## Scripts
+## Available Scripts
 
-- `npm run dev` — start development server
-- `npm run build` — production build
-- `npm run preview` — preview production build
+- `npm run dev` starts the development server.
+- `npm run build` creates a production build.
+- `npm run preview` previews the production build locally.
 
-## API
+## API Configuration
 
-Set `VITE_API_BASE_URL` in `.env` (see `.env.example`). The app is API-ready with Axios interceptors and shared service helpers under `src/services` and `src/api`.
+Set `VITE_API_BASE_URL` in your `.env` file. Refer to `.env.example` for the expected configuration.
 
-## Demo auth
+The application is API-ready, with Axios interceptors and shared service helpers organized under `src/services` and `src/api`.
 
-Use the login form with any valid email and a password of 6+ characters. A local demo session token is stored for frontend routing only. No sample business data is seeded.
+## Demo Authentication
+
+Use the login form with any valid email address and a password containing at least six characters.
+
+A local demo session token is stored for frontend routing purposes only. This is demonstration authentication, not production-grade security.
+
+No sample business data is seeded by default.
+
+## Project Purpose
+
+SiteMaster is designed to support construction companies in Somaliland and East Africa by providing a modern frontend foundation for construction business management.
+
+## License
+
+All rights reserved unless otherwise specified.
